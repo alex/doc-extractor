@@ -1,19 +1,18 @@
 module github.com/alex/doc-extractor
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/gocarina/gocsv v0.0.0-20230123225133-763e25b40669
 	github.com/google/uuid v1.3.0
 	github.com/sirupsen/logrus v1.9.0
 	github.com/urfave/cli/v2 v2.24.1
-	golang.org/x/oauth2 v0.7.0
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.114.0
 )
 
 require (
-	cloud.google.com/go/compute v1.19.1 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
