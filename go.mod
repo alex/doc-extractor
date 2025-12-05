@@ -5,7 +5,7 @@ go 1.23.0
 require (
 	github.com/gocarina/gocsv v0.0.0-20230123225133-763e25b40669
 	github.com/google/uuid v1.3.0
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.1
 	github.com/urfave/cli/v2 v2.24.1
 	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.114.0
